@@ -61,7 +61,7 @@ PROFILES['5-high'] = {
     'buffersize':   '7000k',
     'profile':      'main',
     'level':        '3.1',
-    'fps':          24
+    'fps':          25
 }
 PROFILES['6-hd'] = {
     'resolutions':  { '4/3': '1280x960', '16/9': '1280x720' },
@@ -70,7 +70,7 @@ PROFILES['6-hd'] = {
     'buffersize':   '10000k',
     'profile':      'main',
     'level':        '3.1',
-    'fps':          24
+    'fps':          25
 }
 
 
