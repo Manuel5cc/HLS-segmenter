@@ -2,7 +2,7 @@ import os.path
 from collections import OrderedDict
 
 # SEGMENTS DURATION (seconds)
-SEGMENT_SIZE = 1
+SEGMENT_SIZE = 7
 
 # FFMPEG PRESET [ultrafast,superfast, veryfast, faster, fast, medium, slow, slower, veryslow]
 FFMPEG_PRESET = 'slow'
