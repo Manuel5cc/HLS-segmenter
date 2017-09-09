@@ -72,7 +72,15 @@ PROFILES['6-hd'] = {
     'level':        '3.1',
     'fps':          25
 }
-
+PROFILES['7-fullhd'] = {
+    'resolutions':  { '4/3': '1920x1440', '16/9': '1920x1080' },
+    'audiobitrate': '256k',
+    'videobitrate': '7000k',
+    'buffersize':   '10000k',
+    'profile':      'main',
+    'level':        '4',
+    'fps':          25
+}
 
 def build(inputfile, ratio='16/9', segmentsize=False, ffmpegmode=False):
     presets = PROFILES.copy()
